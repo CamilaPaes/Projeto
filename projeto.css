@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.content {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.cabeca {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 51, 102, 255);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+}
+
+.contato span {
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.contato .numero {
+  margin-right: 90px;
+}
+
+.botoes button {
+  color: #ffffff;
+}
+
+.whatsapp {
+  border-radius: 30px;
+  background-color: #2ba531;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  border: none;
+}
+
+.online {
+  border-radius: 30px;
+  background-color: #00b29c;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  border: none;
+}
+
+.intro {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin-right: 60px; */
+}
+
+.intro ul li {
+  /* padding: 0 50px 0 0; */
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+/* ----------------------------------------------------- */
+
+.introducao {
+  width: 100%;
+  height: 500px;
+  background: url("./imgs/1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bem-vindo {
+  margin-top: 50px;
+  display: flex;
+}
+
+.bem-vindo p {
+  margin-top: 20px;
+  color: rgb(94, 91, 91);
+  font-size: 20px;
+  margin-right: 35px;
+}
+
+.part1 {
+  color: #134271;
+}
+
+.part2 {
+  color: #84312b;
+}
+
+.bem-vindo-item {
+  flex: 1;
+}
+
+.bem-vindo-item-maior {
+  flex: 2;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #72120b;
+  border: none;
+}
+
+/* ------------------------------------------ */
+
+.saiba-mais {
+  background-color: #134271;
+}
+
+.box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+
+  gap: 32px;
+}
+
+.box-geral {
+  display: flex;
+  flex-direction: column;
+  /* margin: 20px 35px 20px 35px; */
+
+  margin: 20px 0;
+  /* width: 300px; */
+  border-radius: 7px;
+  border: 1px solid #6b6b94;
+  padding: 15px;
+}
+
+.box-geral h2 {
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.box-geral p {
+  text-align: center;
+  color: #ffffff;
+  line-height: 2em;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.saiba {
+  margin: 40px 30px 0 30px;
+  border: none;
+}
+
+/* ---------------------------------------------------------------- */
+
+.nosso-contato {
+  margin-top: 50px;
+}
+
+.nosso-contato h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dados-msg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.dados-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 40%;
+}
+
+.dados-contato input {
+  background-color: #e4e0e4;
+  border: none;
+  height: 50px;
+  border-radius: 3px;
+}
+
+.msg {
+  width: 40%;
+}
+
+.msg textarea {
+  width: 100%;
+  height: 100%;
+  background-color: #e4e2e4;
+  border: none;
+}
+
+.btn-enviar {
+  margin-top: 10px;
+  width: 80%;
+}
+
+.btn-enviar button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 4px;
+  background-color: #84312b;
+  color: #ffffff;
+}
+
+/* ----------------------------------------- */
+
+.rodape-1 {
+  background-color: #003366;
+  height: 200px;
+  color: #ffffff;
+  margin-bottom: 0.5px;
+}
+
+.rodape {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.junto {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.contato-rodape {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape-lista ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rodape-lista ul li {
+  line-height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.bot {
+  margin-bottom: 10px;
+}
+
+.rodape-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  height: 100px;
+  background-color: #003366;
+}
+
+.sub-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
